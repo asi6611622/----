@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T06:42:19.215Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="6SYpag8enpQDkIKcEqmB" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:10:10.357Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="NyVkNBjGc4BL7a7px6Qk" version="20.5.3" type="github">
   <diagram id="ayqQ7T-YZ_BM9WAgvXPL" name="第 1 页">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,9 @@
         </mxCell>
         <mxCell id="fsr5ISJh2obqert98bvB-3" value="nacos-ec2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-5" value="&lt;span style=&quot;box-sizing: border-box; font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgba(230, 231, 233, 0.04);&quot; class=&quot;pui-pages-api-api-manage-http-http-api-case-index-path-hover&quot;&gt;/nacos&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgba(230, 231, 233, 0.04);&quot; class=&quot;pui-pages-api-api-manage-http-http-api-case-index-path-hover&quot;&gt;/v1/cs/ops/localCache&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="300" width="220" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
