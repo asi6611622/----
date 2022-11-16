@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:21:36.540Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="c44O7YW6aTdZRqTKDu4p" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:20:22.524Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36 Edg/107.0.1418.42" etag="ZTBQzgYbKjtADx5bobwX" version="20.5.3" type="github">
   <diagram id="ayqQ7T-YZ_BM9WAgvXPL" name="第 1 页">
     <mxGraphModel dx="2066" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,19 +16,78 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="fsr5ISJh2obqert98bvB-1" value="管理端" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="10" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsr5ISJh2obqert98bvB-2" value="nacos-k8s" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="370" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsr5ISJh2obqert98bvB-3" value="nacos-ec2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="550" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fsr5ISJh2obqert98bvB-5" value="&lt;span style=&quot;box-sizing: border-box; font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgba(230, 231, 233, 0.04);&quot; class=&quot;pui-pages-api-api-manage-http-http-api-case-index-path-hover&quot;&gt;/nacos&lt;/span&gt;&lt;span style=&quot;box-sizing: border-box; font-family: -apple-system, system-ui, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Helvetica Neue&amp;quot;, &amp;quot;PingFang SC&amp;quot;, &amp;quot;Microsoft Yahei&amp;quot;, Arial, &amp;quot;Noto Sans&amp;quot;, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;, &amp;quot;Segoe UI Symbol&amp;quot;, &amp;quot;Noto Color Emoji&amp;quot;; font-size: 14px; text-align: start; background-color: rgba(230, 231, 233, 0.04);&quot; class=&quot;pui-pages-api-api-manage-http-http-api-case-index-path-hover&quot;&gt;/v1/cs/ops/localCache&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="580" width="220" height="30" as="geometry" />
+          <mxGeometry x="140" y="610" width="220" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fsr5ISJh2obqert98bvB-11" value="&lt;h1&gt;部署两个nacos解释&lt;/h1&gt;&lt;p&gt;欧服没有ec2环境,&amp;nbsp; &amp;nbsp;nacos 2.x需要gRPC端口但ingress开放不了&lt;/p&gt;&lt;p&gt;利用nacos的ops接口可以通知nacos到mysql重新拉取配置, 通知spring更新&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="20" y="210" width="380" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-12" value="配置同步" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-13" value="配置发布" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="10" y="660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="30" y="710" width="730" height="440" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-15" value="选择配置" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="50" y="750" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-16" value="新建配置" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="180" y="750" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.007;entryY=0.111;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;" edge="1" parent="1" source="fsr5ISJh2obqert98bvB-17" target="fsr5ISJh2obqert98bvB-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-23" value="弹出对话框" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#000000;" vertex="1" connectable="0" parent="fsr5ISJh2obqert98bvB-22">
+          <mxGeometry x="0.0803" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-17" value="发布配置" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="260" y="750" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-18" value="&lt;div style=&quot;color: rgb(212, 212, 212); background-color: rgb(30, 30, 30); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace; line-height: 18px;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #3dc9b0;&quot;&gt;coros&lt;/span&gt;:&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #3dc9b0;&quot;&gt;&amp;nbsp; compareResult&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #3dc9b0;&quot;&gt;&amp;nbsp; useCache&lt;/span&gt;: &lt;span style=&quot;color: #569cd6;&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div&gt;  &lt;span style=&quot;color: #3dc9b0;&quot;&gt;&amp;nbsp; tick&lt;/span&gt;: &lt;span style=&quot;color: #b5cea8;&quot;&gt;5&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="50" y="800" width="680" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="840" y="710" width="760" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;" edge="1" parent="1" source="fsr5ISJh2obqert98bvB-20" target="fsr5ISJh2obqert98bvB-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-20" value="&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;coros&lt;/span&gt;:&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;&amp;nbsp; compareResult&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;&amp;nbsp; useCache&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;&amp;nbsp; tick&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(181, 206, 168);&quot;&gt;5&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="900" y="820" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-21" value="&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;coros&lt;/span&gt;:&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;&amp;nbsp; compareResult&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(212, 212, 212); font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;&amp;nbsp; useCache&lt;/span&gt;:&amp;nbsp;&lt;span style=&quot;color: rgb(86, 156, 214);&quot;&gt;true&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Menlo, Monaco, &amp;quot;Courier New&amp;quot;, monospace;&quot;&gt;&lt;span style=&quot;color: rgb(212, 212, 212);&quot;&gt;&lt;span style=&quot;color: rgb(61, 201, 176);&quot;&gt;&amp;nbsp; tick&lt;/span&gt;:&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#b5cea8&quot;&gt;6&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="820" width="290" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-25" value="国内" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="910" y="760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-26" value="海外" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-27" value="欧洲" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="760" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-28" value="OK" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1060" y="1110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-29" value="Cancel" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1110" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fsr5ISJh2obqert98bvB-30" value="username: coros&lt;br&gt;password:&amp;nbsp;J32YHeRNkBjBi5iS" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#000000;align=left;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="240" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
